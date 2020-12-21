@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient( rgba(69, 199, 250, 0.466),rgba(5, 5, 5, 0.623)),url(photo-1555066931-4365d14bab8c.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.full-form{
+    border: 1px solid rgba(88, 201, 66, 0.452);
+    width: 500px;
+    height: 460px;
+   margin-left: 415px;
+   margin-top: 73px;
+   box-shadow: 2px 2px 32px rgba(23, 235, 200, 0.89);
+   border-radius: 50px 50px;
+   
+}
+
+.this-h11 {
+    text-align: center;
+    
+}
+.this-h11 h1{
+    display: inline-block;
+    position: relative;
+    top: 140px;
+    font-size: 42px;
+    font-family: sans-serif;
+    border-bottom: 4px solid rgb(97, 201, 97);
+    color: rgba(255, 255, 255, 0.931);
+}
+
+form{
+    text-align: center;
+    position: relative;
+    top: 172px;
+
+   
+}
+.this-input i{
+    color: rgb(255, 255, 255);
+    position: relative;
+  right: 8px;
+}
+
+input{
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    font-size: 17px;
+    color: white;
+   
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.349);
+}
+input:hover{
+    border-bottom: 2px solid rgb(87, 206, 63);
+    transition: .10s;
+}
+a{
+    font-size: 17px;
+    text-decoration: none;
+   border: 1px solid red;
+    padding: 4px 35px;
+    position: relative;
+    top: 22px;
+    left: 6px;
+    font-family: sans-serif;
+    color: rgb(255, 247, 247);
+    border-radius: 20px;
+
+}
+
+a:hover{
+    background: rgb(219, 27, 27);
+    padding: 4px 45px;
+    box-shadow: 2px 2px 22px red;
+    transition: .5s
+   
+}
+
+
+.this-p1 p{
+    color: rgba(255, 255, 255, 0.712);
+    border-bottom: 2px solid rgba(230, 31, 31, 0.507);
+    display: inline-block;
+    position: relative;
+    top: 161px;
+    left: 5px;
+    font-size: 13px;
+    font-family: sans-serif
+}
